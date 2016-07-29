@@ -45,6 +45,13 @@ CURTSIES_NAMES = dict([
   (b'\x1bOQ',     u'<F2>'),
   (b'\x1bOR',     u'<F3>'),
   (b'\x1bOS',     u'<F4>'),
+
+  # see bpython #626
+  (b'\x1b[11~', u'KEY_F(1)'),
+  (b'\x1b[12~', u'KEY_F(2)'),
+  (b'\x1b[13~', u'KEY_F(3)'),
+  (b'\x1b[14~', u'KEY_F(4)'),
+
   (b'\x1b[15~',   u'<F5>'),
   (b'\x1b[17~',   u'<F6>'),
   (b'\x1b[18~',   u'<F7>'),
